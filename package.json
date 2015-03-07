@@ -1,0 +1,23 @@
+{
+  "name": "odds-calc",
+  "version": "0.1.0",
+  "description": "Calculate probability of dice rolls",
+  "main": "main.js",
+  "scripts": {
+    "start": "beefy main.js:bin/odds-calc.min.js --live --debug=false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:apathy-dude/odds-calc.git"
+  },
+  "author": "Thomas Brown",
+  "license": "Unliscence",
+  "bugs": {
+    "url": "https://github.com/apathy-dude/odds-calc/issues"
+  },
+  "homepage": "https://github.com/apathy-dude/odds-calc",
+  "dependencies": {
+    "lodash": "^3.4.0"
+  }
+}
