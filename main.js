@@ -80,7 +80,7 @@ function greaterThanOrEqual(odds) {
         return function(n) {
             n = Number.parseFloat(n);
             return n >= val;
-        }
+        };
     }
 
     var sum = _.reduce(odds, function(sum, n) {
@@ -101,7 +101,7 @@ function lessThanOrEqual(odds, val) {
     function pred(val) {
         return function(n) {
             return n <= val;
-        }
+        };
     }
 
     var sum = _.reduce(odds, function(sum, n) {
